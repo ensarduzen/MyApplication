@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kayit"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KAYIT OL"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/et_Ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ad"/>
+    <EditText
+        android:id="@+id/et_Soyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyad"/>
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/et_Sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sifre"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/et_Tsifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sifre Tekrar"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/et_Cinsiyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cinsiyet"
+        android:inputType="textImeMultiLine"/>
+    <TextView
+        android:id="@+id/dogumTarihi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dogum Tarihi"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/uyeOl"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KAYIT OL"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+
+
+</LinearLayout>
